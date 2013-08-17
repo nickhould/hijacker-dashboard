@@ -9,4 +9,12 @@ SCHEDULER.every '2s' do
   send_event('tags', { items: [{label: "yo", value: 123}]})
 end
 
+# params = {
+#   event: ["Sent image"],
+#   type: "general",
+#   unit: "day",
+#   interval: 1
+# }
+# events = m.events(params)
+# puts events.inspect
 

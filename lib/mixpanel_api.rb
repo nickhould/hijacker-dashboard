@@ -22,4 +22,12 @@ class MixpanelAPI
     @client.request('funnels', params)
   end
 
+  def events(params={})
+    @client.request('events', params)
+  end
+
+  def event_properties(params={})
+    @client.request('events/properties', params)
+  end
+
 end
