@@ -1,8 +1,8 @@
 require 'mixpanel_client'
 
 class MixpanelAPI
-  API_KEY    = MIXPANEL_CLIENT_CONFIG["api_key"]
-  API_SECRET = MIXPANEL_CLIENT_CONFIG["api_secret"]
+  API_KEY    = ENV["mixpanel_key"]
+  API_SECRET = ENV["mixpanel_secret"]
 
   def initialize()
     config = {
