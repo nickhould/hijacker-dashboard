@@ -19,6 +19,8 @@ GEM
       sprockets
       thin
       thor
+    domainatrix (0.0.11)
+      addressable
     ethon (0.5.12)
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
@@ -108,6 +110,7 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
+  domainatrix
   heroku
   mixpanel_client
   tux
